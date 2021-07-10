@@ -17,6 +17,6 @@
     <copyright>Copyright 2021</copyright>
   </metadata>
   <files>
-    <file src=".\**" target="content" exclude="**\bin\**;**\obj\**;**\.git\**;**\.github\**;**\*.user;**\.idea\**;**\.vscode\**" />
+    <file src=".\**" target="content" exclude="**\bin\**;*.nuspec;*.config;**\obj\**;**\.git\**;**\.github\**;**\*.user;**\.idea\**;**\.vscode\**" />
   </files>
 </package>
