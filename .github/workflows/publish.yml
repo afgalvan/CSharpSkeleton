@@ -1,10 +1,10 @@
-name: publish CSharp.Skeleton Template to nuget
+name: publish template to nuget
+
 on:
   push:
     branches:
       - main
-    paths:
-      - "CSharpSkeleton.nuspec"
+
 jobs:
   publish:
     name: list on nuget
@@ -16,7 +16,8 @@ jobs:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v2
 
-      - uses: nuget/setup-nuget@v1
+      - name: 🆖 Setup nuget
+        uses: nuget/setup-nuget@v1
         with:
           nuget-version: "5.x"
 
