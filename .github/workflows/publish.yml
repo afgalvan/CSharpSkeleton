@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'CSharpSkeleton.nuspec'
+      - "CSharpSkeleton.nuspec"
 jobs:
   publish:
     name: list on nuget
@@ -16,10 +16,9 @@ jobs:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v2
 
-      - name: 🆖 Setup nuget
-        uses: nuget/setup-nuget@v1
+      - uses: nuget/setup-nuget@v1
         with:
-          nuget-version: '5.x'
+          nuget-version: "5.x"
 
       - name: 📦 Package the template
         run: nuget pack CSharpSkeleton.nuspec
