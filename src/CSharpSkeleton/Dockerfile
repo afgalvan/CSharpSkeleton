@@ -4,8 +4,8 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["src/CSharpSkeleton/CSharpSkeleton.csproj", "CSharpSkeleton/"]
-RUN dotnet restore "src/CSharpSkeleton/CSharpSkeleton.csproj"
-COPY . .
+RUN dotnet restore "CSharpSkeleton/CSharpSkeleton.csproj"
+COPY /src .
 WORKDIR "/src/CSharpSkeleton"
 RUN dotnet build "CSharpSkeleton.csproj" -c Release -o /app/build
 
