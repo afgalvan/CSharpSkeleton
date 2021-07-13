@@ -3,7 +3,7 @@
   <metadata>
     <id>CSharpSkeleton.Template</id>
     <title>CSharpSkeleton.Template</title>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <authors>Andres Galvan</authors>
     <owners>Andres Galvan</owners>
     <description>
@@ -13,7 +13,7 @@
     <projectUrl>https://github.com/afgalvan/CSharpSkeleton</projectUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Add editorconfig and gitignore to project</releaseNotes>
+    <releaseNotes>Remove nuget data at csproj template file</releaseNotes>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
