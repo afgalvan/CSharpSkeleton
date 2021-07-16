@@ -5,7 +5,7 @@
   "identity": "CSharp.Skeleton",
   "name": "C# Skeleton: Basic console project structure",
   "shortName": "skeleton",
-  "sourceName": "CSharp.Skeleton",
+  "sourceName": "CSharpSkeleton",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",
