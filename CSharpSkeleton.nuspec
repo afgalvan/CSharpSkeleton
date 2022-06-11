@@ -3,18 +3,18 @@
   <metadata>
     <id>CSharpSkeleton.Template</id>
     <title>CSharpSkeleton.Template</title>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <authors>Andres Galvan</authors>
     <owners>Andres Galvan</owners>
     <description>
       Basic C# solution template
     </description>
     <language>en-US</language>
-    <projectUrl>https://github.com/afgalvan/CSharpSkeleton</projectUrl>
-    <repository type="git" url="https://github.com/afgalvan/CLInjected" />
+    <projectUrl>https://github.com/upen-source/CSharpSkeleton</projectUrl>
+    <repository type="git" url="https://github.com/upen-source/CSharpSkeleton" />
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Add .NET 6 support</releaseNotes>
+    <releaseNotes>Add CI .NET 6 support</releaseNotes>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
